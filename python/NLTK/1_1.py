@@ -3,10 +3,10 @@
 
 import nltk
 import operator
-import urllib.request
+import urllib2
 from bs4 import BeautifulSoup
 
-response = urllib.request.urlopen('http://python.org')
+response = urllib2.urlopen('http://python.org')
 html = response.read()
 clean = BeautifulSoup(html, 'html.parser').get_text()
 tokens = [tok for tok in clean.split()]

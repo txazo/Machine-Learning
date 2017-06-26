@@ -1,11 +1,15 @@
-#!/usr/bin/python
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
+import sys
 import nltk
-import urllib.request
+import urllib2
 from bs4 import BeautifulSoup
 
-response = urllib.request.urlopen('http://python.org')
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+response = urllib2.urlopen('http://python.org')
 html = response.read()
 clean = BeautifulSoup(html, 'html.parser').get_text()
 tokens = [tok for tok in clean.split()]
