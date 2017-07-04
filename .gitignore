@@ -1,6 +1,8 @@
 /.idea
 *.iml
+.Rhistory
 .DS_Store
+*.pyc
 *.dot
 *.pdf
 *.png
