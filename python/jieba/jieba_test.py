@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 # 结巴中文分词
