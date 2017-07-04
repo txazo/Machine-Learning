@@ -33,3 +33,4 @@
 #### 优秀博文
 
 * [深度学习基础概念笔记](https://www.qcloud.com/community/article/103987)
+* [自然语言处理技术在推荐系统中的应用](http://geek.csdn.net/news/detail/208281)
