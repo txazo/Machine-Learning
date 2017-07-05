@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+# 线性分类器
+
 import pandas as pd
 import numpy as np
 from sklearn.cross_validation import train_test_split
@@ -28,22 +30,20 @@ ss = StandardScaler()
 X_train = ss.fit_transform(X_train)
 X_test = ss.transform(X_test)
 
+# 逻辑斯蒂回归分类器
 lr = LogisticRegression()
-# 训练模型
 lr.fit(X_train, y_train)
-# 模型预测
 lr_y_predict = lr.predict(X_test)
-# 评分
 lr_score = lr.score(X_test, y_test)
 lr_report = classification_report(y_test, lr_y_predict, target_names=['良性', '恶性'])
-print(lr_y_predict)
-print("LR Classifier Score: {}".format(lr_score))
-print("LR Classifier Score Report: {}".format(lr_report))
+print("Logistic Classifier Score: {}".format(lr_score))
+print("Logistic Classifier Report: \n{}".format(lr_report))
 
+# 随机梯度下降分类器
 sgdc = SGDClassifier()
 sgdc.fit(X_train, y_train)
-sgdc_y_predict = lr.predict(X_test)
+sgdc_y_predict = sgdc.predict(X_test)
 sgdc_score = sgdc.score(X_test, y_test)
 sgdc_report = classification_report(y_test, sgdc_y_predict, target_names=['良性', '恶性'])
 print("SGD Classifier Score: {}".format(sgdc_score))
-print("LR Classifier Score Report: {}".format(sgdc_report))
+print("SGD Classifier Report: \n{}".format(sgdc_report))
