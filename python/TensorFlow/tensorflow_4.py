@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import tensorflow as tf
 import numpy as np
+import tensorflow as tf
 
 # 日志级别
 tf.logging.set_verbosity(tf.logging.ERROR)
