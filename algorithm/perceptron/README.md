@@ -1,6 +1,8 @@
 # 感知机(Perceptron)
 
-输入: <img src="http://latex.codecogs.com/svg.latex?\inline&space;\dpi{120}&space;\bg_white&space;\large&space;x&space;=&space;[x_{1},x_{2},...,x_{n}]" />
+输入: 
+
+<div align=center><img src="http://latex.codecogs.com/svg.latex?\inline&space;\dpi{120}&space;\bg_white&space;\large&space;x&space;=&space;[x_{1},x_{2},...,x_{n}]" /></div>
 
 <div align=center><img src="http://latex.codecogs.com/svg.latex?\dpi{120}&space;\bg_white&space;\large&space;f(x)=sign(w\cdot&space;x&plus;b)" /></div>
 
