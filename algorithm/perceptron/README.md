@@ -6,4 +6,4 @@
 
 M为误分类的集合:
 
-<img src="http://latex.codecogs.com/svg.latex?\dpi{120}&space;\large&space;L(w,b)=-\sum_{x_{i}\in&space;M}y_{i}(w\cdot&space;x_{i}&plus;b))" />
+<p style="text-align"><img src="http://latex.codecogs.com/svg.latex?\dpi{120}&space;\large&space;L(w,b)=-\sum_{x_{i}\in&space;M}y_{i}(w\cdot&space;x_{i}&plus;b))" /></p>
