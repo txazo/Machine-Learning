@@ -29,3 +29,4 @@
 * [自然语言处理技术在推荐系统中的应用](http://geek.csdn.net/news/detail/208281)
 * [可能是史上最全的机器学习和Python速查表 ](https://mp.weixin.qq.com/s?__biz=MzI4NjYwMjcxOQ==&mid=2247484157&idx=1&sn=2efcdaf89d213f00dcfe0c32a7e63b41&chksm=ebdb264ddcacaf5b0ba0b0ce3c31bb9ffebb1278b1df9580d4c5c8a01006ac971c3ed0a05935#rd)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+* [一文掌握人工智能各大分支技术](http://geek.csdn.net/news/detail/210487)
