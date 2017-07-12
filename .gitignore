@@ -8,4 +8,5 @@
 *.png
 __pycache__/
 .ipynb_checkpoints/
-mnist/*.csv
+/mnist/test.csv
+/mnist/train.csv
