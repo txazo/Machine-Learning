@@ -1,0 +1,40 @@
+# 第一周
+
+#### 机器学习定义
+
+> A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
+
+#### 机器学习算法
+
+* 监督学习(Supervised Learning): 提供输入和输出
+* 无监督学习(Unsupervised Learning): 只提供输入
+* 强化学习(Reinforcement Learning)
+* 推荐系统(Recommender System)
+
+#### 监督学习
+
+* 回归(Regression): 输出连续值
+* 分类(Classification): 输出离散值
+
+#### 无监督学习
+
+* 聚类(Clustering)
+
+#### 机器学习术语
+
+* Training Set: 训练集
+* Learning Algorithm: 学习算法
+* Cost Function: 损失函数
+* Learning Rate: 学习率
+
+#### 线性回归(Linear Regression)
+
+* 一元线性回归
+* 多元线性回归
+
+#### 平方误差(Square Error)
+
+#### 梯度下降(Gradient Descent)
+
+* Local Minimum: 局部最小值
+* Global Minimum: 全局最小值
