@@ -3,8 +3,9 @@
 #### 推荐方法
 
 * 协同过滤推荐(Collaborative Filtering Recommendation)
-    * User-Based(UserCF): 基于用户的协同过滤推荐
-    * Item-Based(ItemCF): 基于物品的协同过滤推荐
+    * User-Based(UserCF): 基于用户的协同过滤推荐, 人以类聚
+    * Item-Based(ItemCF): 基于物品的协同过滤推荐, 物以群分
+    * 用户-物品-评分的 m x n 相似矩阵
 * 基于内容的推荐(Content-Based Recommendation)
 
 #### 推荐方法对比
@@ -67,9 +68,9 @@
 * [美团点评 - 旅游推荐系统的演进](https://tech.meituan.com/travel-recsys.html)
 * [美团点评 - 外卖O2O的用户画像实践](https://tech.meituan.com/waimai-ups.html)
 * [外卖排序系统特征生产框架](https://tech.meituan.com/feature_pipeline.html)
-* [深入推荐引擎相关算法 - 协同过滤](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy2/)
 * [协同过滤和基于内容推荐有什么区别](https://www.zhihu.com/question/19971859)
 * [推荐引擎初探](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy1/index.html)
-* [深入推荐引擎相关算法 - 协同过滤](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy2/index.html?ca=drs-)
-* [深入推荐引擎相关算法 - 聚类](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy3/index.html?ca=drs-)
+* [深入推荐引擎相关算法 - 协同过滤](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy2/index.html)
+* [深入推荐引擎相关算法 - 聚类](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy3/index.html)
 * [推荐系统不相信眼泪](http://iyao.ren/2017/02/28/itemcf/)
+* [协同过滤推荐算法的原理及实现](http://blog.csdn.net/yimingsilence/article/details/54934302)
