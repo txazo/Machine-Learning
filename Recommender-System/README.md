@@ -2,59 +2,81 @@
 
 #### 推荐方法
 
-* 协同过滤推荐(Collaborative Filtering Recommendation)
-    * User-Based(UserCF): 基于用户的协同过滤推荐, 人以类聚
-    * Item-Based(ItemCF): 基于物品的协同过滤推荐, 物以群分
-    * 用户-物品-评分的 m x n 相似矩阵
+* 基于人口统计学的推荐(Demographic-Based Recommendation)
 * 基于内容的推荐(Content-Based Recommendation)
+* 协同过滤推荐(Collaborative Filtering Recommendation)
+    * 基于用户的协同过滤推荐(User-Based Collaborative Filtering Recommendation): UserCF, 人以类聚
+    * 基于物品的协同过滤推荐(Item-Based Collaborative Filtering Recommendation): ItemCF, 物以群分
+* 基于模型的推荐(Model-Based Recommendation)
 
 #### 推荐方法对比
 
-* 基于用户的协同过滤推荐
-    * User相似度 -> 相似User -> 相似User的Item
-* 基于物品的协同过滤推荐
-    * User的Item -> Item统计相似度 -> 其它相似Item
-* 基于内容的推荐
-    * 不考虑User
-    * User的Item -> Item内容相似度 -> 其它相似Item
+* 基于人口统计学的推荐(只考虑用户特征)
 
-#### 推荐过程
+    1. 用户特征 - 用户相似度
+    2. 用户 - 相似用户 -  相似用户的物品
 
-* 用户推荐位的曝光和点击行为上报离线系统
-* 训练样本集(Item的曝光和点击 + Item特征 + 用户特征) - 训练算法
+* 基于内容的推荐(只考虑物品特征)
 
-* 餐厅库 -> 候选集生成 -> 排序 -> 推荐展示给用户
+    1. 物品特征 - 物品相似度
+    2. 用户 - 历史物品 - 相似物品
 
-* 召回: 候选集生成
-* 排序
+* 基于用户的协同过滤推荐(用户对物品的偏好)
 
-#### 特征提取
+    1. 矩阵(用户-物品-偏好) - 用户相似度
+    2. 用户 - 相似用户 -  历史偏好物品
 
-用户特征: 历史行为
+* 基于物品的协同过滤推荐(用户对物品的偏好)
 
-餐厅特征: 名称、位置、菜系、推荐菜、星级、标签、均价、评分
+    1. 矩阵(用户-物品-偏好) - 物品相似度
+    2. 用户 - 历史偏好物品 - 相似物品
 
-点评特征: 评分、评论、口味、环境、服务
+* 基于模型的推荐
 
-#### 协同过滤
+    1. 用户 - 样本(物品-偏好) - 训练模型
+    2. 物品 - 训练好的模型 - 偏好
 
-* KNN算法
-* 相似度算法
-* User-Based算法: 用户相似度 -> 相似用户集
-* Item-Based算法: Item相似度 -> 每个Item的相似集
-* 用户历史行为(用户 + 相似用户集) -> Item集 -> Item候选集
-* Top-N推荐: Item候选集 -> 排序 -> Item推荐集
-* 相似命中率: Item集切分为训练集和测试集 -> Item推荐集和测试集计算相似命中率
+#### 用户对物品的偏好
 
-* 用户行为 -> 用户偏好
+* 浏览: 布尔, 0/1
+* 评分: 数值, 1-5
+* 收藏: 布尔, 0/1
+* 分享: 布尔, 0/1
+* 顶: 布尔, 0/1
+* 踩: 布尔, 0/1
+* 点击(头图、点评): 布尔, 0/1
 
-* 数据处理: 减噪、归一化
+#### 推荐处理
 
-#### 文本处理
+* 分组处理
+* 加权处理
 
-文本 -> 词向量
+#### 相似度计算
 
-#### 语料库
+* 欧几里德距离
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?d(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}" /></a></div>
+
+* 皮尔逊相关系数
+
+<div align="center"></div>
+
+#### 召回(候选集生成)
+
+* UserCF: 用户 - 相似用户 -  历史偏好物品
+* ItemCF: 用户 - 历史偏好物品 - 相似物品
+
+#### 用户对物品的偏好预测
+
+* UserCF: 用户相似度 x 用户对物品的偏好
+* ItemCF: 用户对物品的偏好 x 物品相似度
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P=\sum&space;w_{i}s_{j}" /></a></div>
+
+#### 计算复杂度
+
+* UserCF: 用户越多, 复杂度越大
+* ItemCF: 物品越多, 复杂度越大
 
 #### 推荐系统评测指标
 
