@@ -25,6 +25,7 @@
 
 #### 机器学习博文
 
+* [黑人小哥四个月速成全栈机器学习全程解密](https://www.qcloud.com/community/article/587331)
 * [深度学习基础概念笔记](https://www.qcloud.com/community/article/103987)
 * [自然语言处理技术在推荐系统中的应用](http://geek.csdn.net/news/detail/208281)
 * [可能是史上最全的机器学习和Python速查表 ](https://mp.weixin.qq.com/s?__biz=MzI4NjYwMjcxOQ==&mid=2247484157&idx=1&sn=2efcdaf89d213f00dcfe0c32a7e63b41&chksm=ebdb264ddcacaf5b0ba0b0ce3c31bb9ffebb1278b1df9580d4c5c8a01006ac971c3ed0a05935#rd)
