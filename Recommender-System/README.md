@@ -1,5 +1,11 @@
 # 推荐系统
 
+#### 推荐系统处理的对象
+
+* 用户: 用户特征
+* 物品: 物品特征
+* 用户对物品的偏好
+
 #### 推荐方法
 
 * 基于人口统计学的推荐(Demographic-Based Recommendation)
@@ -53,11 +59,11 @@
 
 #### 相似度计算
 
-* 欧几里得距离
+* 欧几里得距离(Euclidean Distance)
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?d(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}" /></a></div>
 
-相似度转换，距离越小，相似度越大
+欧几里得距离越小，相似度越大
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?sim(x,y)=\frac{1}{1&plus;d(x,y)}" /></div>
 
@@ -65,11 +71,11 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?J(A,B)=\frac{\left&space;|&space;A\cap&space;B&space;\right&space;|}{\left&space;|&space;A\cup&space;B&space;\right&space;|}=\frac{\left&space;|&space;A\cap&space;B&space;\right&space;|}{\left&space;|&space;A&space;\right&space;|&plus;\left&space;|&space;B&space;\right&space;|-\left&space;|&space;A\cap&space;B&space;\right&space;|}" /></a></div>
 
-* 皮尔逊相关系数
+* 皮尔逊相关系数(Pearson Correlation Coefficient)
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x,y)=\frac{\sum&space;x_{i}y_{i}-n\bar{x}\bar{y}}{\sqrt{\sum&space;x_{i}^2-n\bar{x}^2}\sqrt{\sum&space;y_{i}^2-n\bar{y}^2}}" /></a></div>
 
-* 余弦相似度
+* 余弦相似度(Cosine Similarity)
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?T(x,y)=\frac{\sum&space;x_{i}y{i}}{\sqrt{\sum&space;x_{i}^{2}}\sqrt{\sum&space;y_{i}^{2}}}" /></a></div>
 
