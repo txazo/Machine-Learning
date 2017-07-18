@@ -61,9 +61,13 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?sim(x,y)=\frac{1}{1&plus;d(x,y)}" /></div>
 
+* 杰卡德系数(Jaccard Index)
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?J(A,B)=\frac{\left&space;|&space;A\cap&space;B&space;\right&space;|}{\left&space;|&space;A\cup&space;B&space;\right&space;|}=\frac{\left&space;|&space;A\cap&space;B&space;\right&space;|}{\left&space;|&space;A&space;\right&space;|&plus;\left&space;|&space;B&space;\right&space;|-\left&space;|&space;A\cap&space;B&space;\right&space;|}" /></a></div>
+
 * 皮尔逊相关系数
 
-<div align="center"></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x,y)=\frac{n\sum&space;xy-\sum&space;x\sum&space;y}{\sqrt{n\sum&space;x^{2}-(\sum&space;x)^2}\cdot&space;\sqrt{n\sum&space;y^{2}-(\sum&space;y)^2}}" /></a></div>
 
 * 余弦相似度
 
