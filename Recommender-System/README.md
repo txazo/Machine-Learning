@@ -5,18 +5,18 @@
 * 基于人口统计学的推荐(Demographic-Based Recommendation)
 * 基于内容的推荐(Content-Based Recommendation)
 * 协同过滤推荐(Collaborative Filtering Recommendation)
-    * 基于用户的协同过滤推荐(User-Based Collaborative Filtering Recommendation): UserCF, 人以类聚
-    * 基于物品的协同过滤推荐(Item-Based Collaborative Filtering Recommendation): ItemCF, 物以群分
+    * 基于用户的协同过滤推荐(User-Based Collaborative Filtering Recommendation): UserCF
+    * 基于物品的协同过滤推荐(Item-Based Collaborative Filtering Recommendation): ItemCF
 * 基于模型的推荐(Model-Based Recommendation)
 
 #### 推荐方法对比
 
-* 基于人口统计学的推荐(只考虑用户特征)
+* 基于人口统计学的推荐(只考虑用户)
 
     1. 用户特征 - 用户相似度
     2. 用户 - 相似用户 -  相似用户的物品
 
-* 基于内容的推荐(只考虑物品特征)
+* 基于内容的推荐(只考虑物品)
 
     1. 物品特征 - 物品相似度
     2. 用户 - 历史物品 - 相似物品
