@@ -53,13 +53,21 @@
 
 #### 相似度计算
 
-* 欧几里德距离
+* 欧几里得距离
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?d(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}" /></a></div>
+
+相似度转换，距离越小，相似度越大
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?sim(x,y)=\frac{1}{1&plus;d(x,y)}" /></div>
 
 * 皮尔逊相关系数
 
 <div align="center"></div>
+
+* 余弦相似度
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?T(x,y)=\frac{\sum&space;x_{i}y{i}}{\sqrt{\sum&space;x_{i}^{2}}\sqrt{\sum&space;y_{i}^{2}}}" /></a></div>
 
 #### 相似度计算复杂度
 
