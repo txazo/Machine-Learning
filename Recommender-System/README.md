@@ -67,7 +67,7 @@
 
 * 皮尔逊相关系数
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x,y)=\frac{n\sum&space;xy-\sum&space;x\sum&space;y}{\sqrt{n\sum&space;x^{2}-(\sum&space;x)^2}\cdot&space;\sqrt{n\sum&space;y^{2}-(\sum&space;y)^2}}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x,y)=\frac{\sum&space;x_{i}y_{i}-n\bar{x}\bar{y}}{\sqrt{\sum&space;x_{i}^2-n\bar{x}^2}\sqrt{\sum&space;y_{i}^2-n\bar{y}^2}}" /></a></div>
 
 * 余弦相似度
 
