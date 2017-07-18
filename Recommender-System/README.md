@@ -68,8 +68,8 @@
 
 #### 用户对物品的偏好预测
 
-* UserCF: 用户相似度 x 用户对物品的偏好
-* ItemCF: 用户对物品的偏好 x 物品相似度
+* UserCF: 用户相似度w * 用户对物品的偏好s
+* ItemCF: 用户对物品的偏好s * 物品相似度w
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P=\sum&space;w_{i}s_{j}" /></a></div>
 
