@@ -62,3 +62,7 @@
 #### 矩阵和向量乘法
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;1&space;&&&space;2\\&space;3&space;&&&space;4&space;\end{bmatrix}\begin{bmatrix}&space;1\\&space;2&space;\end{bmatrix}=\begin{bmatrix}&space;5\\&space;11&space;\end{bmatrix}" /></a></div>
+
+#### 矩阵和矩阵乘法
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;1&space;&&&space;2&space;&&&space;3\\&space;4&space;&&&space;5&space;&&&space;6&space;\end{bmatrix}\begin{bmatrix}&space;1&space;&&&space;2\\&space;3&space;&&&space;4\\&space;5&space;&&&space;6&space;\end{bmatrix}=\begin{bmatrix}&space;22&space;&&&space;28\\&space;49&space;&&&space;64&space;\end{bmatrix}" /></a></div>
