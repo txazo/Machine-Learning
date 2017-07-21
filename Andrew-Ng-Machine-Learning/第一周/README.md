@@ -55,6 +55,10 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;1&space;&&&space;2\\&space;3&space;&&&space;4&space;\end{bmatrix}&plus;\begin{bmatrix}&space;1&space;&&&space;2\\&space;3&space;&&&space;4&space;\end{bmatrix}=\begin{bmatrix}&space;2&space;&&&space;4\\&space;6&space;&&&space;8&space;\end{bmatrix}" /></a></div>
 
-#### 矩阵标量运算
+#### 矩阵和标量乘法
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?3&space;\ast&space;\begin{bmatrix}&space;1\\&space;2\\&space;3&space;\end{bmatrix}=\begin{bmatrix}&space;3\\&space;6\\&space;9&space;\end{bmatrix}" /></a></div>
+
+#### 矩阵和向量乘法
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;1&space;&&&space;2\\&space;3&space;&&&space;4&space;\end{bmatrix}\begin{bmatrix}&space;1\\&space;2&space;\end{bmatrix}=\begin{bmatrix}&space;5\\&space;11&space;\end{bmatrix}" /></a></div>
