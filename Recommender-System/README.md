@@ -64,6 +64,8 @@
 
 #### 相似度计算
 
+* 同现相似度
+
 * 欧几里得距离(Euclidean Distance)
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?d(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}" /></a></div>
@@ -121,3 +123,4 @@
 * [深入推荐引擎相关算法 - 聚类](https://www.ibm.com/developerworks/cn/web/1103_zhaoct_recommstudy3/index.html)
 * [推荐系统不相信眼泪](http://iyao.ren/2017/02/28/itemcf/)
 * [协同过滤推荐算法的原理及实现](http://blog.csdn.net/yimingsilence/article/details/54934302)
+* [基于Map Reduce的协同过滤推荐算法的并行实现](http://www.doc88.com/p-0774360741317.html)
