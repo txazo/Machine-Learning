@@ -8,4 +8,6 @@
 
 令 <img src="http://latex.codecogs.com/svg.latex?\inline&space;x_{0}=1,w_{0}=b" /></a>
 
+令 <img src="http://latex.codecogs.com/svg.latex?\inline&space;\large&space;x_{0}=1,w_{0}=b" /></a>
+
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?y=w_{0}x_{0}&plus;w_{1}x_{1}&plus;...&plus;w_{n}x_{n}=\begin{bmatrix}&space;w_{0}&space;&&space;w_{1}&space;&&space;...&space;&&space;w_{n}&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_{0}\\&space;x_{1}\\&space;...\\&space;x_{n}&space;\end{bmatrix}=w^{T}x" /></a></div>
