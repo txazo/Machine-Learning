@@ -41,13 +41,13 @@
 
 #### 矩阵(Matrix)
 
-2 x 3 矩阵: 2行3列
+2 x 3矩阵: 2行3列
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?M&space;=&space;\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;\\&space;4&space;&&space;5&space;&&space;6&space;\end{bmatrix}" /></a></div>
 
 #### 向量(Vector)
 
-向量 = n x 1 矩阵
+向量 = n x 1矩阵
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?v&space;=&space;\begin{bmatrix}&space;1&space;\\&space;2&space;\\&space;3&space;\end{bmatrix}" /></a></div>
 
@@ -75,6 +75,18 @@
 
 ```A x (B x C) = (A x B) x C```
 
-#### 单位矩阵
+#### 单位矩阵(Identity Matrix)
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;1&space;&&&space;0&space;&&&space;0\\&space;0&space;&&&space;1&space;&&&space;0\\&space;0&space;&&&space;0&space;&&&space;1&space;\end{bmatrix}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?I=\begin{bmatrix}&space;1&space;&&&space;0&space;&&&space;0\\&space;0&space;&&&space;1&space;&&&space;0\\&space;0&space;&&&space;0&space;&&&space;1&space;\end{bmatrix}" /></a></div>
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?A\cdot&space;I=I\cdot&space;A=A" /></a></div>
+
+#### 逆矩阵
+
+```矩阵 x 逆矩阵 = 逆矩阵 x 矩阵 = 单位矩阵```
+
+#### 矩阵转置
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?A=\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3\\&space;4&space;&&space;5&space;&&space;6&space;\end{bmatrix}&space;A^{T}=\begin{bmatrix}&space;1&space;&&space;4\\&space;2&space;&&space;5\\&space;3&space;&&space;6&space;\end{bmatrix}" /></a></div>
+
+矩阵转置: 矩阵的行和列交换
