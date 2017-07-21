@@ -17,3 +17,9 @@
 #### 多元线性回归
 
 #### 多维特征下的梯度下降
+
+#### 特征缩放(Feature Scaling)
+
+> 确保特征在一个相似的数值范围内，提高算法的收敛速度
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\inline&space;x_{i}=\frac{x_{i}}{max(x_{i})}" /></a></div>
