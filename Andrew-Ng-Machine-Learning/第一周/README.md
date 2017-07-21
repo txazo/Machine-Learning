@@ -38,3 +38,15 @@
 
 * Local Minimum: 局部最小值
 * Global Minimum: 全局最小值
+
+#### 矩阵(Matrix)
+
+2 x 3 矩阵: 2行3列
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?M&space;=&space;\begin{bmatrix}&space;1&space;&&space;2&space;&&space;3&space;\\&space;4&space;&&space;5&space;&&space;6&space;\end{bmatrix}" /></a></div>
+
+#### 向量(Vector)
+
+向量 = n x 1 矩阵
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?v&space;=&space;\begin{bmatrix}&space;1&space;\\&space;2&space;\\&space;3&space;\end{bmatrix}" /></a></div>
