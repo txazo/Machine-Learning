@@ -34,7 +34,7 @@ def cooccurrence_similarity(userMap, userId1, userId2):
     return len(sameItems) / math.sqrt(len(items1) * len(items2))
 
 # top-N相似用户
-def topNSimUser(userMap, userId, n=10):
+def topNSimUser(userMap, userId, n=20):
     sims = [(cooccurrence_similarity(userMap, userId, other), other) for other in userMap if other != userId]
     sims.sort()
     sims.reverse()
@@ -42,13 +42,15 @@ def topNSimUser(userMap, userId, n=10):
 
 # 基于用户的top-N推荐
 def topNRecommendByUserCF(userMap, itemMap, userId, n=10):
-    simUsers = topNSimUser(userMap, userId, n)
+    simUsers = topNSimUser(userMap, userId)
+    userItems = userMap[userId]
     predictScores = {}
     for sim, userId in simUsers:
         for itemId, score in userMap[userId].items():
-            if itemId not in predictScores:
-                predictScores[itemId] = 0
-            predictScores[itemId] += sim * score
+            if itemId not in userItems:
+                if itemId not in predictScores:
+                    predictScores[itemId] = 0
+                predictScores[itemId] += sim * score
     sortPredictScores = [(score, itemMap[itemId]) for itemId, score in predictScores.items()]
     sortPredictScores.sort()
     sortPredictScores.reverse()

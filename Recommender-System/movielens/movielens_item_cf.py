@@ -38,14 +38,14 @@ def cooccurrence_similarity(itemMap, itemId1, itemId2):
     return len(sameUsers) / math.sqrt(len(users1) * len(users2))
 
 # top-N相似物品
-def topNSimItem(itemMap, itemId, n=10):
+def topNSimItem(itemMap, itemId, n=20):
     sims = [(cooccurrence_similarity(itemMap, itemId, other), other) for other in itemMap if other != itemId]
     sims.sort()
     sims.reverse()
     return sims[:n]
 
 # 生成top-N相似物品集
-def generateTopNItems(itemMap, n=10):
+def generateTopNItems(itemMap, n=20):
     topNItemMap = {}
     for index, item in enumerate(itemMap.items()):
         if index % 100 == 0:
@@ -56,11 +56,13 @@ def generateTopNItems(itemMap, n=10):
 # 基于物品的top-N推荐
 def topNRecommendByItemCF(userMap, itemMap, topNItemMap, userId, n=10):
     predictScores = {}
+    userItems = userMap[userId]
     for itemId, score in userMap[userId].items():
         for sim, other in topNItemMap[itemId]:
-            if other not in predictScores:
-                predictScores[other] = 0
-            predictScores[other] += sim * score
+            if other not in userItems:
+                if other not in predictScores:
+                    predictScores[other] = 0
+                predictScores[other] += sim * score
     sortPredictScores = [(score, itemMap[itemId][0]) for itemId, score in predictScores.items()]
     sortPredictScores.sort()
     sortPredictScores.reverse()
@@ -70,6 +72,6 @@ k = 10
 ratings = pd.read_csv('./data/ratings.csv')
 movies = pd.read_csv('./data/movies.csv')
 userMap, itemMap = init(ratings, movies)
-topNItemMap = generateTopNItems(itemMap, k)
+topNItemMap = generateTopNItems(itemMap)
 for userId in userMap:
     print('用户{}的Top-N推荐: {}'.format(userId, topNRecommendByItemCF(userMap, itemMap, topNItemMap, userId, k)))
