@@ -26,9 +26,14 @@
 #### 机器学习博文
 
 * [机器学习&深度学习资料](https://github.com/ty4z2008/Qix)
+* [机器学习入门](https://www.zhihu.com/question/20691338)
+* [机器学习入门资源不完全汇总](http://ml.memect.com/article/machine-learning-guide.html)
 * [黑人小哥四个月速成全栈机器学习全程解密](https://www.qcloud.com/community/article/587331)
 * [深度学习基础概念笔记](https://www.qcloud.com/community/article/103987)
+* [机器学习: 入门方法与学习路径](http://www.sohu.com/a/61205916_308467)
 * [自然语言处理技术在推荐系统中的应用](http://geek.csdn.net/news/detail/208281)
 * [可能是史上最全的机器学习和Python速查表 ](https://mp.weixin.qq.com/s?__biz=MzI4NjYwMjcxOQ==&mid=2247484157&idx=1&sn=2efcdaf89d213f00dcfe0c32a7e63b41&chksm=ebdb264ddcacaf5b0ba0b0ce3c31bb9ffebb1278b1df9580d4c5c8a01006ac971c3ed0a05935#rd)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 * [一文掌握人工智能各大分支技术](http://geek.csdn.net/news/detail/210487)
+* [专注机器学习/数据挖掘 - 寒小阳](http://blog.csdn.net/han_xiaoyang)
+* [专注机器学习/数据挖掘 - 龙心尘](http://blog.csdn.net/longxinchen_ml/article/details/50001979)
