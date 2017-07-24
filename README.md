@@ -36,4 +36,4 @@
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 * [一文掌握人工智能各大分支技术](http://geek.csdn.net/news/detail/210487)
 * [专注机器学习/数据挖掘 - 寒小阳](http://blog.csdn.net/han_xiaoyang)
-* [专注机器学习/数据挖掘 - 龙心尘](http://blog.csdn.net/longxinchen_ml/article/details/50001979)
+* [专注机器学习/数据挖掘 - 龙心尘](http://blog.csdn.net/longxinchen_ml)
