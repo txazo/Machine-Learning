@@ -22,14 +22,23 @@
 
 > 确保特征在一个相似的数值范围内，提高算法的收敛速度
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=\frac{x_{i}}{max(x_{i})}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=\frac{x_{i}}{max(x_{i})-min(x_{i})}" /></a></div>
 
 #### 均值归一化(Mean Normalization)
 
-> 使特征的均值为0
+> 使特征的均值为0，提高算法的收敛速度
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=x_{i}-\bar{x_{i}}" /></a></div>
 
 特征缩放 + 均值归一化处理:
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=\frac{x_{i}-\bar{x_{i}}}{max(x_{i})-min(x_{i})}" /></a></div>
+
+#### 梯度下降收敛
+
+迭代次数 - 损失函数值 的散点图
+
+> 迭代次数增加，损失函数值减小，否则，学习率偏大
+> 迭代次数增加，损失函数值下降缓慢，学习率偏小
+
+学习率: ...、0.001、0.01、0.1、1、...
