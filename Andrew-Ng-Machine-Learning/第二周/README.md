@@ -22,7 +22,7 @@
 
 > 确保特征在一个相似的数值范围内，提高算法的收敛速度
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?\inline&space;x_{i}=\frac{x_{i}}{max(x_{i})}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=\frac{x_{i}}{max(x_{i})}" /></a></div>
 
 #### 均值归一化(Mean Normalization)
 
