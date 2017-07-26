@@ -42,3 +42,13 @@
 > 迭代次数增加，损失函数值下降缓慢，学习率偏小
 
 学习率: ...、0.001、0.01、0.1、1、...
+
+#### 多项式线性回归(Polynomial Linear Regression)
+
+同 多元线性回归
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?y=b&plus;w_{1}x&plus;w_{2}x^{2}&plus;w_{3}x^{3}" /></a></div>
+
+#### 正规方程
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\theta=(XX^{T})^{-1}X^{T}y" /></a></div>
