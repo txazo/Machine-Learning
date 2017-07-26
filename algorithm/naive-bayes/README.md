@@ -2,6 +2,8 @@
 
 ## 贝叶斯公式
 
+贝叶斯公式:
+
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(A\cap&space;B)=P(A)*P(B|A)=P(B)*P(A|B)" /></a></div>
 
 变形公式:
