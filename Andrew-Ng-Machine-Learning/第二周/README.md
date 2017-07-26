@@ -32,4 +32,4 @@
 
 特征缩放 + 均值归一化处理:
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=\frac{x_{i}-\bar{x_{i}}}{max(x_{i})&space;-&space;min(x_{i})}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?x_{i}=\frac{x_{i}-\bar{x_{i}}}{max(x_{i})-min(x_{i})}" /></a></div>
