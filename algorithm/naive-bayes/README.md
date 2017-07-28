@@ -19,9 +19,9 @@
 
 #### 朴素贝叶斯
 
-1. 目标概率
+1. 目标函数
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?C=max(P(y_{i}|x))" /></a></div>
 
 2. 应用贝叶斯公式进行概率转换:
 
@@ -31,6 +31,6 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)=\frac{\prod_{j=1}^{n}P(x_{j}|y_{i})*P(y_{i})}{P(x)}" /></a></div>
 
-4. 最大概率的分类
+4. 概率统计
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?C=max(P(y_{i}|x))" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\left\{P(x_{1}|y_{i}),...,P(x_{j}|y_{i}),P(y_{i})\right\}" /></a></div>
