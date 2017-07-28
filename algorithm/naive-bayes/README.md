@@ -45,6 +45,6 @@
 
 #### 拉普拉斯平滑
 
-> 用来处理零概率问题，做加1处理
+> 针对零概率，加1处理
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x_{j}|y=c_{k})=\frac{I(x_{j})}{I(y=c_{k})}\rightarrow&space;P(x_{j}|y=c_{k})=\frac{I(x_{j})&plus;1}{I(y=c_{k})&plus;k}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x_{j}|y=c_{k})=\frac{I(x_{j},y=c_{k})}{I(y=c_{k})}\rightarrow&space;P(x_{j}|y=c_{k})=\frac{I(x_{j},y=c_{k})&plus;1}{I(y=c_{k})&plus;k}" /></a></div>
