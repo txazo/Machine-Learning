@@ -42,3 +42,9 @@
 正态分布的概率密度函数:
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\sqrt{2\pi}\sigma}exp(-\frac{(x-\mu)^{2}}{2\sigma^{2}})" /></a></div>
+
+#### 拉普拉斯平滑
+
+> 用来处理零概率问题，做加1处理
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x_{j}|y=c_{k})=\frac{I(x_{j})}{I(y=c_{k})}\rightarrow&space;P(x_{j}|y=c_{k})=\frac{I(x_{j})&plus;1}{I(y=c_{k})&plus;k}" /></a></div>
