@@ -33,13 +33,13 @@
 
 4. 概率统计
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?\left\{P(x_{1}|y=c_{k}),...,P(x_{j}|y=c_{k}),P(y=c_{k})\right\}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x_{j}|y=c_{k})=\frac{I(x_{j},y=c_{k})}{I(y=c_{k})},P(y=c_{k})=\frac{I(y=c_{k})}{I}" /></a></div>
 
 #### 连续特征处理
 
-> 假设连续特征值服从正态分布
+> 针对连续值的特征，假设连续特征值服从正态分布
 
-正态分布的概率密度函数:
+使用正态分布的概率密度函数计算:
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\sqrt{2\pi}\sigma}exp(-\frac{(x-\mu)^{2}}{2\sigma^{2}})" /></a></div>
 
