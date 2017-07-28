@@ -1,6 +1,6 @@
 # 朴素贝叶斯
 
-## 贝叶斯公式
+#### 贝叶斯公式
 
 贝叶斯公式:
 
@@ -17,11 +17,11 @@
     * P(A|B): B条件下A的后验概率
     * P(B|A): A条件下B的后验概率
 
-## 朴素贝叶斯
+#### 朴素贝叶斯
 
 1. 目标函数
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?y=arg\&space;\underset{c_{k}}{max}P(y=c_{k}|X)" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?y=arg\&space;\underset{c_{k}}{max}\&space;P(y=c_{k}|X)" /></a></div>
 
 2. 应用贝叶斯公式进行概率转换
 
