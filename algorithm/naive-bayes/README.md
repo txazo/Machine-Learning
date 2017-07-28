@@ -43,8 +43,18 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\sqrt{2\pi}\sigma}exp(-\frac{(x-\mu)^{2}}{2\sigma^{2}})" /></a></div>
 
+其中，
+
 #### 拉普拉斯平滑
 
 > 针对零概率，加1处理
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(x_{j}|y=c_{k})=\frac{I(x_{j},y=c_{k})}{I(y=c_{k})}\rightarrow&space;P(x_{j}|y=c_{k})=\frac{I(x_{j},y=c_{k})&plus;1}{I(y=c_{k})&plus;k}" /></a></div>
+
+其中，`k`为`y`的类别数
+
+#### 对数似然
+
+> 概率过小，可能导致概率乘积溢出，解决办法为取对数
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?logP(y=c_{k}|X)&plus;logP(X)=\sum_{j=1}^{n}logP(x_{j}|y=c_{k})&plus;logP(y=c_{k})" /></a></div>
