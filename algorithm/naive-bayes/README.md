@@ -21,19 +21,19 @@
 
 1. 目标函数
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?C=max(P(y_{i}|x))" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?y=arg\&space;\underset{c_{k}}{max}P(y=c_{k}|X)" /></a></div>
 
 2. 应用贝叶斯公式进行概率转换
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)=\frac{P(x|y_{i})*P(y_{i})}{P(x)}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y=c_{k}|X)=\frac{P(X|y=c_{k})*P(y=c_{k})}{P(X)}" /></a></div>
 
 3. 特征条件独立假设
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)=\frac{\prod_{j=1}^{n}P(x_{j}|y_{i})*P(y_{i})}{P(x)}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y=c_{k}|X)=\frac{\prod_{j=1}^{n}P(x_{j}|y=c_{k})*P(y=c_{k})}{P(X)}" /></a></div>
 
 4. 概率统计
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?\left\{P(x_{1}|y_{i}),...,P(x_{j}|y_{i}),P(y_{i})\right\}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\left\{P(x_{1}|y=c_{k}),...,P(x_{j}|y=c_{k}),P(y=c_{k})\right\}" /></a></div>
 
 #### 连续特征处理
 
