@@ -23,11 +23,11 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?C=max(P(y_{i}|x))" /></a></div>
 
-2. 应用贝叶斯公式进行概率转换:
+2. 应用贝叶斯公式进行概率转换
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)=\frac{P(x|y_{i})*P(y_{i})}{P(x)}" /></a></div>
 
-3. 特征条件独立假设:
+3. 特征条件独立假设
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)=\frac{\prod_{j=1}^{n}P(x_{j}|y_{i})*P(y_{i})}{P(x)}" /></a></div>
 
