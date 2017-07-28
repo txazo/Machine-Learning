@@ -43,8 +43,6 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\sqrt{2\pi}\sigma}exp(-\frac{(x-\mu)^{2}}{2\sigma^{2}})" /></a></div>
 
-其中，
-
 #### 拉普拉斯平滑
 
 > 针对零概率，加1处理
