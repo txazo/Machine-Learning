@@ -27,6 +27,6 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(y_{i}|x)=\frac{\prod_{j=1}^{n}P(x_{j}|y_{i})*P(y_{i})}{P(x)}" /></a></div>
 
-3. 求类别的最大概率
+3. 最大概率的分类
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?C=max(P(y_{i}|x))" /></a></div>
