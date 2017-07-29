@@ -4,7 +4,7 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(A\cap&space;B)=P(B|A)*P(A)=P(A|B)*P(B)" /></a></div>
 
-变形公式:
+变形公式
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?P(A|B)=\frac{P(B|A)*P(A)}{P(B)}" /></a></div>
 
@@ -30,7 +30,7 @@
 
 > 针对连续值的特征，假设连续特征值服从正态分布
 
-使用正态分布的概率密度函数计算:
+使用正态分布的概率密度函数计算
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\sqrt{2\pi}\sigma}exp(-\frac{(x-\mu)^{2}}{2\sigma^{2}})" /></a></div>
 
