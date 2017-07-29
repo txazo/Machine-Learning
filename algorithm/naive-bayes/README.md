@@ -55,4 +55,4 @@
 
 > 概率过小，可能导致概率乘积溢出，解决办法为取对数
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?logP(y=c_{k}|X)&plus;logP(X)=\sum_{j=1}^{n}logP(x_{j}|y=c_{k})&plus;logP(y=c_{k})" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?logP(y=c_{k}|X)=\sum_{j=1}^{n}logP(x_{j}|y=c_{k})&plus;logP(y=c_{k})-logP(X)" /></a></div>
