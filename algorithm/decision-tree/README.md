@@ -2,9 +2,11 @@
 
 #### 最小分割样本数
 
-#### 熵
+#### 熵(Entropy)
 
-#### 信息增益
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?E(x)=-\sum_{k=1}^{c}p_{k}log_{2}p_{k}" /></a></div>
+
+#### 信息增益(Information Gain)
 
 #### 偏差(Bias)和方差(Variance)
 
