@@ -1,12 +1,12 @@
-# 朴素贝叶斯
+## 朴素贝叶斯
 
 #### 贝叶斯公式
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(A\cap&space;B)=P(A)*P(B|A)=P(B)*P(A|B)" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(A\cap&space;B)=P(B|A)*P(A)=P(A|B)*P(B)" /></a></div>
 
 变形公式:
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(B|A)=\frac{P(A|B)*P(B)}{P(A)}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?P(A|B)=\frac{P(B|A)*P(A)}{P(B)}" /></a></div>
 
 #### 朴素贝叶斯
 
