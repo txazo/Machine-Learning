@@ -17,9 +17,13 @@
 
 > 在一个条件下，随机变量的不确定性
 
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)=\sum_{i=1}^{n}p(x_{i})H(Y|X=x_{i})" /></a></div>
+
 #### 信息增益(Information Gain)
 
 > 在一个条件下，信息不确定性减少的程度，信息增益 = 信息熵 - 条件熵
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)=H(Y)-H(Y|X)" /></a></div>
 
 #### 偏差(Bias)和方差(Variance)
 
