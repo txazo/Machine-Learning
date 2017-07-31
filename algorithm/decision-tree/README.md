@@ -33,7 +33,7 @@
 
 #### 信息增益极大化
 
-> <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>极小化
+> <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;X=x_{i}" /></a>条件下<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y" /></a>的不确定性小 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;X=x_{i}" /></a>条件下<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y" /></a>分布不均匀 → 最好的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y=c_{j},p(Y=c_{j}|X=x_{i})=1" /></a>
 
 
 
