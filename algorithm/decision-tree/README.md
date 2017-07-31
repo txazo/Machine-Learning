@@ -2,13 +2,11 @@
 
 #### 随机变量的不确定性
 
-随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;D(X)=\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)=\left\{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
+随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;D(X)=\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)=\left\{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
 
-随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>可能取集合<img src="http://latex.codecogs.com/svg.latex?\inline&space;D(X)" /></a>中不同值，取值具有不确定性
+随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>可能取集合<img src="http://latex.codecogs.com/svg.latex?\inline&space;D(X)" /></a>中不同值，取值具有不确定性，概率分布<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>可以用来衡量随机变量不确定性的程度
 
-概率分布<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>可以衡量不确定性的程度，<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>分布越均匀，<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>取不同值的概率越大，不确定性越大
-
-反之，<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>分布越不均匀，<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>取确定值<img src="http://latex.codecogs.com/svg.latex?\left\{arg\&space;\underset{x_{k}}{top}\&space;p(x_{k})\right\}" /></a>的概率越大，不确定性越小
+<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>分布越均匀，<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>取不同值(不确定值)的概率越大，不确定性越大；反之，<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>分布越不均匀，<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>取确定值<img src="http://latex.codecogs.com/svg.latex?\left\{arg\&space;\underset{x_{k}}{top}\&space;p(x_{k})\right\}" /></a>的概率越大，不确定性越小
 
 #### 信息熵(Entropy)
 
