@@ -2,7 +2,7 @@
 
 #### 随机变量的不确定性
 
-随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\leftD(X)=\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\leftP(X)=\{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
+随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;D(X)=\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)=\left\{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
 
 假设新的随机事件
 
