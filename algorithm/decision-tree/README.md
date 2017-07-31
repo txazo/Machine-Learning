@@ -25,7 +25,7 @@
 
 ####信息增益极大化
 
-<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化，则<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化，进而<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>也要极小化
+<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化<img src="http://latex.codecogs.com/svg.latex?\inline&space;\rightarrow" /></a><img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化，进而<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>也要极小化
 
 #### 决策树
 
