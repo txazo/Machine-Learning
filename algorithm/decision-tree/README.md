@@ -2,7 +2,7 @@
 
 #### 随机变量
 
-假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;x" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
+假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
 
 #### 信息熵(Entropy)
 
