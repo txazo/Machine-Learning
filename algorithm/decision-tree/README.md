@@ -46,17 +46,20 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?H(X,Y)=arg\&space;\underset{X_{i}}{max}\&space;G(Y|X_{i})" /></a></div>
 
-2. 划分子集
+2. 根据1中选择的特征来划分子集
 
-根据选择的特征来划分子集
-
-3. 子集继续上述1、2过程，直到子集为空或属于同一分类
+3. 继续上述1、2过程，直到子集为空或属于同一分类
 
 #### 偏差(Bias)和方差(Variance)
 
-> 偏差和方差也可以反应随机变量的不确定性
+> 偏差和方差也可以用来衡量随机变量的不确定性
 
-随机变量的不确定性越大，分布越均匀，偏差和方差越小；反之，随机变量的不确定性越小，分布越不均匀，偏差和方差越大
+平均偏差
+
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?\mu=\frac{\sum_{i=1}^{n}\left|x_{i}-\overline{x}\right|}{n}" /></a></div>
+
+* 随机变量的不确定性越大，分布越均匀，偏差和方差越小
+* 随机变量的不确定性越小，分布越不均匀，偏差和方差越大
 
 #### 过拟合
 
