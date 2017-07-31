@@ -23,7 +23,9 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)=H(Y)-H(Y|X)" /></a></div>
 
-`信息增益极大化?`
+`如何使信息增益极大化?`
+
+H(Y)固定，G(Y|X)极大化，则H(Y|X)极小化，进而<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>也要极小化
 
 #### 决策树
 
