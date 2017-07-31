@@ -4,14 +4,20 @@
 
 #### 信息熵(Entropy)
 
-> 描述信息的不确定性，信息的不确定性越大，熵越大
+> 随机变量的不确定性(复杂度)，不确定性越大，熵越大
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?E(x)=-\sum_{k=1}^{c}p_{k}log_{2}p_{k}" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?H(x)=-\sum_{i=1}^{n}p(x_{i})log_{2}(x_{i})" /></a></div>
 
 * 只有一种类别时，熵的值最小，为0
-* 每种类别出现的概率相同时，熵的值最小，为<img src="http://latex.codecogs.com/svg.latex?log_{2}N" /></a>，N为类别数
+* 每种类别的概率相同时，熵的值最大，为<img src="http://latex.codecogs.com/svg.latex?log_{2}N" /></a>，N为类别数
+
+#### 条件熵
+
+> 在一个条件下，随机变量的不确定性
 
 #### 信息增益(Information Gain)
+
+> 在一个条件下，信息不确定性减少的程度，信息增益 = 信息熵 - 条件熵
 
 #### 偏差(Bias)和方差(Variance)
 
