@@ -8,7 +8,7 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?H(x)=-\sum_{i=1}^{n}p(x_{i})log_{2}p(x_{i})" /></a></div>
 
-假设随机变量<img src="http://latex.codecogs.com/svg.latex?x\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
+假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;x\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
 
 * 
 * <img src="http://latex.codecogs.com/svg.latex?p(x_{k})=\frac{1}{n}" /></a>时，熵的值最大为，<img src="http://latex.codecogs.com/svg.latex?log_{2}n" /></a>
