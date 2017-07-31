@@ -12,9 +12,9 @@
 
 > 随机变量的不确定性，不确定性越大，熵越大
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?H(x)=-\sum_{i=1}^{n}p(x_{i})log_{2}p(x_{i})" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?H(X)=-\sum_{i=1}^{n}p(x_{i})log_{2}p(x_{i})" /></a></div>
 
-假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;x\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
+假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
 
 * <img src="http://latex.codecogs.com/svg.latex?\inline&space;max\&space;p(x_{k})" /></a>越接近1，随机变量的不确定性越小，熵取值越接近最小值0
 * <img src="http://latex.codecogs.com/svg.latex?\inline&space;p(x_{1})=p(x_{2})=...=p(x_{n})=\frac{1}{n}" /></a>时，随机变量的不确定性最大，熵取最大值<img src="http://latex.codecogs.com/svg.latex?\inline&space;log_{2}n" /></a>
