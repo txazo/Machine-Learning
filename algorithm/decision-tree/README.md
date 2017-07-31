@@ -6,10 +6,12 @@
 
 > 随机变量的不确定性(复杂度)，不确定性越大，熵越大
 
-<div align="center"><img src="http://latex.codecogs.com/svg.latex?H(x)=-\sum_{i=1}^{n}p(x_{i})log_{2}(x_{i})" /></a></div>
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?H(x)=-\sum_{i=1}^{n}p(x_{i})log_{2}p(x_{i})" /></a></div>
 
-* 只有一种类别时，熵的值最小，为0
-* 每种类别的概率相同时，熵的值最大，为<img src="http://latex.codecogs.com/svg.latex?log_{2}N" /></a>，N为类别数
+假设随机变量<img src="http://latex.codecogs.com/svg.latex?x\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
+
+* 
+* <img src="http://latex.codecogs.com/svg.latex?p(x_{k})=\frac{1}{n}" /></a>时，熵的值最大为，<img src="http://latex.codecogs.com/svg.latex?log_{2}n" /></a>
 
 #### 条件熵
 
