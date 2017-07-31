@@ -1,8 +1,12 @@
 ## 决策树
 
+#### 随机变量
+
+假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;x" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
+
 #### 信息熵(Entropy)
 
-> 随机变量的不确定性(复杂度)，不确定性越大，熵越大
+> 随机变量的不确定性，不确定性越大，熵越大
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?H(x)=-\sum_{i=1}^{n}p(x_{i})log_{2}p(x_{i})" /></a></div>
 
@@ -26,6 +30,8 @@
 #### 信息增益极大化
 
 <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>极小化
+
+
 
 #### 决策树
 
