@@ -37,15 +37,19 @@
 
 最好的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{j}\right\},p(Y=c_{j}|X=x_{i})=1,H(Y|X=x_{i})=0" /></a>
 
-最坏的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{1},c_{2},...,c_{n}\right\},p(Y=c_{j}|X=x_{i})=\frac{1}{n},H(Y|X=x_{i})=log_{2}n" /></a>
+最坏的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{1},c_{2},...,c_{m}\right\},p(Y=c_{j}|X=x_{i})=\frac{1}{n},H(Y|X=x_{i})=log_{2}n" /></a>
 
 #### 决策树
 
-1. 计算各个特征下Y的信息增益，取信息增益最大的特征来划分子集
+1. 计算各个特征下<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>的信息增益，取信息增益最大的特征来划分子集
 
 2. 针对子集继续上述过程，直到子集为空或属于同一分类
 
 #### 偏差(Bias)和方差(Variance)
+
+> 偏差和方差也可以反应随机变量的不确定性
+
+随机变量的不确定性越大，分布越均匀，偏差和方差越小；反之，随机变量的不确定性越小，分布越不均匀，偏差和方差越大
 
 #### 特征数
 
