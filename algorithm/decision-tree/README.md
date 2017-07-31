@@ -9,7 +9,7 @@
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?E(x)=-\sum_{k=1}^{c}p_{k}log_{2}p_{k}" /></a></div>
 
 * 只有一种类别时，熵的值最小，为0
-* 每种类别出现的概率相同时，熵的值最小，为<img src="http://latex.codecogs.com/svg.latex?log_{2}N" /></a>
+* 每种类别出现的概率相同时，熵的值最小，为<img src="http://latex.codecogs.com/svg.latex?log_{2}N" /></a>，N为类别数
 
 #### 信息增益(Information Gain)
 
