@@ -10,8 +10,8 @@
 
 假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;x\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
 
-* 
-* <img src="http://latex.codecogs.com/svg.latex?\inline&space;p(x_{k})=\frac{1}{n}" /></a>时，熵的值最大为<img src="http://latex.codecogs.com/svg.latex?\inline&space;log_{2}n" /></a>
+* <img src="http://latex.codecogs.com/svg.latex?\inline&space;max\&space;p(x_{k})" /></a>越接近1，熵取值越接近0
+* <img src="http://latex.codecogs.com/svg.latex?\inline&space;p(x_{k})=\frac{1}{n}" /></a>时，熵取最大值<img src="http://latex.codecogs.com/svg.latex?\inline&space;log_{2}n" /></a>
 
 #### 条件熵
 
