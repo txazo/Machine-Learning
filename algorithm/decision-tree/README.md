@@ -16,7 +16,7 @@
 
 假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
 
-* <img src="http://latex.codecogs.com/svg.latex?\inline&space;max\&space;p(x_{i})" /></a>越接近1，随机变量的不确定性越小，熵越接近最小值0
+* <img src="http://latex.codecogs.com/svg.latex?\inline&space;max\&space;p(x_{i})" /></a>越趋紧1，随机变量的不确定性越小，熵越趋紧最小值0
 * <img src="http://latex.codecogs.com/svg.latex?\inline&space;p(x_{1})=p(x_{2})=...=p(x_{n})=\frac{1}{n}" /></a>时，随机变量的不确定性最大，熵取最大值<img src="http://latex.codecogs.com/svg.latex?\inline&space;log_{2}n" /></a>
 
 #### 条件熵
@@ -33,7 +33,7 @@
 
 #### 信息增益极大化
 
-> <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;X=x_{i}" /></a>条件下<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y" /></a>的不确定性小 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;X=x_{i}" /></a>条件下<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y" /></a>分布不均匀
+> <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;X=x_{i}" /></a>条件下<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y" /></a>的不确定性极小化
 
 最好的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{j}\right\},p(Y=c_{j}|X=x_{i})=1,H(Y|X=x_{i})=0" /></a>
 
@@ -41,9 +41,15 @@
 
 #### 决策树
 
-1. 计算各个特征下<img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>的信息增益，取信息增益最大的特征来划分子集
+1. 目标函数
 
-2. 针对子集继续上述过程，直到子集为空或属于同一分类
+<div align="center"><img src="http://latex.codecogs.com/svg.latex?H(X,Y)=arg\&space;\underset{X_{i}}{max}\&space;G(Y|X_{i})" /></a></div>
+
+2. 划分子集
+
+根据选择的特征来划分子集
+
+3. 子集继续上述1、2过程，直到子集为空或属于同一分类
 
 #### 偏差(Bias)和方差(Variance)
 
