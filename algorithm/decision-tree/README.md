@@ -1,8 +1,10 @@
 ## 决策树
 
-#### 随机变量
+#### 随机变量的不确定性
 
-假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\{{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
+随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>，取值集合为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\D(X)={x_{1},x_{2},...,x_{n}\right\}" /></a>，概率分布为<img src="http://latex.codecogs.com/svg.latex?\inline&space;\left\P(X)={{p(x_{1}),p(x_{2}),...,p(x_{n})\right\}" /></a>
+
+假设新的随机事件
 
 #### 信息熵(Entropy)
 
