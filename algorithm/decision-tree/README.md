@@ -17,6 +17,7 @@
 假设随机变量<img src="http://latex.codecogs.com/svg.latex?\inline&space;X\in\left\{x_{1},x_{2},...,x_{n}\right\}" /></a>
 
 * <img src="http://latex.codecogs.com/svg.latex?\inline&space;max\&space;p(x_{i})" /></a>越趋紧1，随机变量的不确定性越小，熵越趋紧最小值0
+
 * <img src="http://latex.codecogs.com/svg.latex?\inline&space;p(x_{1})=p(x_{2})=...=p(x_{n})=\frac{1}{n}" /></a>时，随机变量的不确定性最大，熵取最大值<img src="http://latex.codecogs.com/svg.latex?\inline&space;log_{2}n" /></a>
 
 #### 条件熵
@@ -35,9 +36,9 @@
 
 > <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y)" /></a>固定，<img src="http://latex.codecogs.com/svg.latex?\inline&space;G(Y|X)" /></a>极大化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X=x_{i})" /></a>极小化 → <img src="http://latex.codecogs.com/svg.latex?\inline&space;X=x_{i}" /></a>条件下<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y" /></a>的不确定性极小化
 
-最好的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{j}\right\},p(Y=c_{j}|X=x_{i})=1,H(Y|X=x_{i})=0" /></a>
+* 最好的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{j}\right\},p(Y=c_{j}|X=x_{i})=1,H(Y|X=x_{i})=0" /></a>
 
-最坏的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{1},c_{2},...,c_{m}\right\},p(Y=c_{j}|X=x_{i})=\frac{1}{n},H(Y|X=x_{i})=log_{2}n" /></a>
+* 最坏的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{1},c_{2},...,c_{m}\right\},p(Y=c_{j}|X=x_{i})=\frac{1}{n},H(Y|X=x_{i})=log_{2}n" /></a>
 
 #### 决策树
 
