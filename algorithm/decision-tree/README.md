@@ -8,7 +8,7 @@
 
 <img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>分布越均匀，<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>取不同值(不确定值)的概率越大，不确定性越大；反之，<img src="http://latex.codecogs.com/svg.latex?\inline&space;P(X)" /></a>分布越不均匀，<img src="http://latex.codecogs.com/svg.latex?\inline&space;X" /></a>取确定值<img src="http://latex.codecogs.com/svg.latex?\left\{arg\&space;\underset{x_{k}}{top}\&space;p(x_{k})\right\}" /></a>的概率越大，不确定性越小
 
-#### 信息熵(Entropy)
+#### 信息熵 - Entropy
 
 > 随机变量的不确定性，不确定性越大，熵越大
 
@@ -26,7 +26,7 @@
 
 <div align="center"><img src="http://latex.codecogs.com/svg.latex?\inline&space;H(Y|X)=\sum_{i=1}^{n}p(x_{i})H(Y|X=x_{i})" /></a></div>
 
-#### 信息增益(Information Gain)
+#### 信息增益 - Information Gain
 
 > 在一个条件下，信息不确定性减少的程度，信息增益 = 信息熵 - 条件熵
 
@@ -41,6 +41,10 @@
 * 最坏的情况，<img src="http://latex.codecogs.com/svg.latex?\inline&space;Y\in\left\{c_{1},c_{2},...,c_{m}\right\},p(Y=c_{j}|X=x_{i})=\frac{1}{n},H(Y|X=x_{i})=log_{2}n" /></a>
 
 #### 决策树
+
+决策树的思想是
+
+#### 决策树的实现
 
 1. 目标函数
 

@@ -1,3 +1,3 @@
 # K近邻(K-Nearest Neighbor)
 
-KNN
+K近邻，K-Nearest Neighbor，KNN
